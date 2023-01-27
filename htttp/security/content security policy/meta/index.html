@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSP - meta tag example</title>
+      <!-- It will fail. -->
+    <link 
+        rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+        crossorigin="anonymous"
+    >
+    <!-- It will load it. -->
+    <link 
+        rel="stylesheet" 
+        href="./style.css"
+    >
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; font-src 'self';" />
+</head>
+
+<body>
+     <!-- It will fail. -->
+    <img src="https://ec.crypton.co.jp/img/special/vocaloid/img_MIKU_us.png">
+     <!-- It will fail. -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous">
+    </script>
+     <!-- It will load it. -->
+     <script 
+        src="./script.js"
+     >
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+console.log("It will works since it's local.")
