@@ -1,3 +1,4 @@
 # white-room
 
-- [HTTP](./htttp/README.md).
+- [HTTP](./htttp/README.md);
+- [RXJS](./rxjs/README.md).
