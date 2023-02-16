@@ -11,27 +11,4 @@
 
 ## Vocabulary
 
-- あ
-    - あめ (Rain)
-    - あい (Love)
-    - いくさ (You)
-
-- い 
-  -  いいえ (No)
-  -  いき (Breath)
-  -  いし (Stone)
-
-- う
-  - うえ (Up)
-  - うち (Home)
-  - うたう (Sing)
-
-- え
-  - えさ (Feed)
-  - えいご (English)
-  - えんぴつ (Pencil)
-
-- お
-  - おす (Push)
-  - おいし (Delicious)
-  - おおかみ (Wolf)
+- [あいさつ](./vocabulary/001%20-%20%E3%81%82%E3%81%84%E3%81%95%E3%81%A4.md).
